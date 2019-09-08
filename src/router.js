@@ -11,15 +11,24 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home,
+      component: () => import(/* webpackChunkName: "home" */ './views/Home.vue'),
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
+      path: '/referencias',
+      name: 'referencias',
+      component: () => (
+        import(/* webpackChunkName: "referencias" */ './views/Referencias.vue')
+      ),
     },
+    // {
+    //   path: '/recomendacoes',
+    //   name: 'recomendacoes',
+    //   component: () => import(/* webpackChunkName: "recomendacoes" */ './views/Recomendacoes.vue'),
+    // },
+    // {
+    //   path: '/sobre',
+    //   name: 'sobre',
+    //   component: () => import(/* webpackChunkName: "sobre" */ './views/Sobre.vue'),
+    // },
   ],
 });
