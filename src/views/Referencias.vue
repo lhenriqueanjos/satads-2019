@@ -11,7 +11,7 @@
         ></v-img>
       </v-flex>
 
-      <h1>Referências</h1>
+      <h1 class="headline font-weight-bold mb-4">Referências</h1>
 
       <a href="https://br.vuejs.org/v2/guide/syntax.html">O Template</a>
       <a href="https://br.vuejs.org/v2/api/#Opcoes-Dados">Component Options</a>

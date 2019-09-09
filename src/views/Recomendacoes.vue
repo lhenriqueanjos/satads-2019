@@ -3,7 +3,7 @@
     <v-layout text-center justify-center column>
       <v-icon color="warning" size="160">mdi-medal</v-icon>
 
-      <h1>Recomendações</h1>
+      <h1 class="headline font-weight-bold mb-4">Recomendações</h1>
 
       <v-layout text-center justify-center row>
         <v-icon color="secondary">mdi-ticket</v-icon>&nbsp;

@@ -25,10 +25,10 @@ export default new Router({
       name: 'recomendacoes',
       component: () => import(/* webpackChunkName: "recomendacoes" */ './views/Recomendacoes.vue'),
     },
-    // {
-    //   path: '/sobre',
-    //   name: 'sobre',
-    //   component: () => import(/* webpackChunkName: "sobre" */ './views/Sobre.vue'),
-    // },
+    {
+      path: '/sobre',
+      name: 'sobre',
+      component: () => import(/* webpackChunkName: "sobre" */ './views/Sobre.vue'),
+    },
   ],
 });
