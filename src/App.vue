@@ -13,6 +13,13 @@
     <v-content>
       <router-view />
     </v-content>
+
+    <v-footer fixed>
+      <v-layout text-center justify-center row>
+        <v-icon>mdi-github-circle</v-icon>
+        <a href="https://github.com/lhenriqueanjos/satads-2019">Código fonte aqui</a>
+      </v-layout>
+    </v-footer>
   </v-app>
 </template>
 
