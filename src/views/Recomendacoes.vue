@@ -7,7 +7,7 @@
 
       <v-layout text-center justify-center row>
         <v-icon color="secondary">mdi-ticket</v-icon>&nbsp;
-        <a href="https://br.vuejs.org/v2/guide/syntax.html">
+        <a href="https://braziljs.org/eventos/otr-curitiba/2019">
           BrazilJS On The Road Curitiba
         </a>
       </v-layout>
