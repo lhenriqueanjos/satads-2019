@@ -2,13 +2,15 @@
   <v-container>
     <v-layout text-center justify-center column>
       <v-flex mb-4>
-        <v-img
-          src="@/assets/satads.jpg"
-          aspect-ratio="1"
-          class="secondary lighten-1 mx-auto"
-          max-width="440"
-          max-height="160"
-        ></v-img>
+        <a href="https://www.facebook.com/events/344717593072628/permalink/354941985383522/">
+          <v-img
+            src="@/assets/satads.jpg"
+            aspect-ratio="1"
+            class="secondary lighten-1 mx-auto"
+            max-width="440"
+            max-height="160"
+          ></v-img>
+        </a>
       </v-flex>
 
       <h1 class="headline font-weight-bold mb-3">Web, Single-Page Applications e Vue.js</h1>

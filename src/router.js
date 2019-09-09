@@ -20,11 +20,11 @@ export default new Router({
         import(/* webpackChunkName: "referencias" */ './views/Referencias.vue')
       ),
     },
-    // {
-    //   path: '/recomendacoes',
-    //   name: 'recomendacoes',
-    //   component: () => import(/* webpackChunkName: "recomendacoes" */ './views/Recomendacoes.vue'),
-    // },
+    {
+      path: '/recomendacoes',
+      name: 'recomendacoes',
+      component: () => import(/* webpackChunkName: "recomendacoes" */ './views/Recomendacoes.vue'),
+    },
     // {
     //   path: '/sobre',
     //   name: 'sobre',
