@@ -2,14 +2,15 @@
   <v-container>
     <v-layout text-center justify-center column>
       <v-flex mb-4>
-        <v-img
-          src="@/assets/luiz.jpeg"
-          aspect-ratio="1"
-          class="grey lighten-1 mx-auto"
-          max-width="220"
-          max-height="220"
-          style="border-radius: 50%"
-        ></v-img>
+        <v-avatar height="220" width="220">
+          <v-img
+            src="@/assets/luiz.jpeg"
+            aspect-ratio="1"
+            class="grey lighten-1 mx-auto"
+            max-width="220"
+            max-height="220"
+          ></v-img>
+        </v-avatar>
       </v-flex>
 
       <v-expansion-panels>
